@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem;
+  border-radius: 12px;
+  border: 1px solid #053B50;
+  background-color: #f0f0f0; /* Add a background color */
+  padding: 20px; /* Add some padding for spacing */
+  z-index: 999;
+}
+
+.footer-logo {
+  height: 6rem; /* Adjust the logo size */
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font-size: 2rem;
+  margin: 1rem;
+  color: #053B50; /* Change icon color */
+  cursor: pointer;
+  transition: color 0.3s ease; /* Add a smooth color transition on hover */
+}
+
+.icon:hover {
+  color: #007bff; /* Change color on hover */
+}

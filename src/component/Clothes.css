@@ -1,0 +1,47 @@
+.clothesSec {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clothesSec::before {
+  content: "";
+  background: url(./img/Clothes2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.category {
+  background: #eee;
+}
+
+.parentBtn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.categoryBtn {
+  height: 3rem;
+  width: 12rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 11px;
+  /* box-shadow: 1px 1px 21px 2px red; */
+  border: 1px solid #053B50;
+  cursor: pointer;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+}
+.categoryBtn:hover {
+  background: #053B50;
+  box-shadow: 1px 1px 21px 2px #053B50;
+  color: white;
+}
