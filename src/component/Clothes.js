@@ -7,15 +7,15 @@ function Clothes () {
   const [data, setData] = useState([]);
 
   let [btnContent, setBtnContent] = useState("Go to Women");
-  let [switchCat, setSwitchCat] = useState("mens");
+  let [switchCat, setSwitchCat] = useState("men");
 
   let handleCategory = () => {
     if (btnContent === "Go to Women") {
       setBtnContent("Go to Men");
-      setSwitchCat("womens");
+      setSwitchCat("women");
     } else {
       setBtnContent("Go to Women");
-      setSwitchCat("mens");
+      setSwitchCat("men");
     }
   };
 
