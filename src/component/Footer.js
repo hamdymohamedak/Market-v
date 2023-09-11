@@ -14,7 +14,7 @@ function Footer() {
         >
           <i className="fab fa-facebook"></i>
         </a>
-        <a href="tel:201017788970" className="icon">
+        <a href="tel:201099691398" className="icon">
           <i className="fab fa-whatsapp"></i>
         </a>
       </div>
