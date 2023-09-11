@@ -95,3 +95,20 @@
     grid-template-columns: auto auto auto auto;
   }
 }
+
+.handleStyles {
+  margin-top: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.handleStyles :nth-child(n) {
+  display: block;
+  height: 2rem;
+  width: 16rem;
+  border: none;
+  border: 1px solid black;
+  border-radius: 11px;
+  padding-left: 1rem;
+}
