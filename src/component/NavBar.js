@@ -14,7 +14,7 @@ function NavBar() {
   useEffect(() => {
     window.addEventListener("scroll", () => {
       setNavStyle({
-        background: "#EFC130",
+        background: "#FFC107",
       });
       if (window.scrollY === 0) {
         setNavStyle({

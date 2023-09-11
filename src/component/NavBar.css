@@ -29,7 +29,7 @@ ul li a {
   font-weight: bold;
 }
 ul li a:hover {
-  color: #d2de32;
+  color: #FFC107;
 }
 
 .logo {
@@ -52,7 +52,7 @@ ul li a:hover {
 }
 .fa-bars:active {
   rotate: 360deg;
-  color: #d2de32;
+  color: #FFC107;
 }
 
 @media (max-width: 768px) {
